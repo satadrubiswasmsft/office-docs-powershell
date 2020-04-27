@@ -45,7 +45,7 @@
         href: exchange-server/recipient-filters/recipientfilter-properties.md
     - name: Automate tasks in Exchange Online PowerShell
       href: exchange-online/automate-exchange-online-tasks.md
-        - name: Exchange Online PowerShell V2
+  - name: Exchange Online PowerShell V2
     href: exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2.md
     items:
     - name: Property sets in cmdlets
