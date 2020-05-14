@@ -46,6 +46,11 @@ Set-InformationBarrierPolicy -Identity <PolicyIdParameter> [-SegmentsBlocked <Mu
 ```
 
 ## DESCRIPTION
+Information barrier policies are not in effect until you set them to active status, and then apply the policies:
+
+- (If needed): [Define a policy to block communications between segments](https://docs.microsoft.com/microsoft-365/compliance/information-barriers-policies#scenario-1-block-communications-between-segments).
+- After all of your policies are defined: [Apply information barrier policies](https://docs.microsoft.com/microsoft-365/compliance/information-barriers-policies#part-3-apply-information-barrier-policies).
+
 For more information, see [Information barrier policies](https://docs.microsoft.com/microsoft-365/compliance/information-barriers-policies).
 
 You need to be assigned permissions in the Office 365 Security & Compliance Center before you can use this cmdlet. For more information, see [Permissions in Office 365 Security & Compliance Center](https://go.microsoft.com/fwlink/p/?LinkId=511920).
@@ -193,4 +198,4 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 [Define policies for information barriers](https://docs.microsoft.com/microsoft-365/compliance/information-barriers-policies)
 
-[New-InformationBarrierPolicy](https://docs.microsoft.com/powershell/module/exchange/new-informationbarrierpolicy)
+[New-InformationBarrierPolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/new-informationbarrierpolicy)
